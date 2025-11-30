@@ -1,6 +1,6 @@
 /**
  * @file interrupts_student1_student2_EP_RR.cpp
- * @author Your Names Here
+ * @author Shael Kotecha and Matthe Bekkers
  * @brief Combined External Priorities + Round Robin Scheduler (with preemption)
  */
 

@@ -1,6 +1,6 @@
 /**
  * @file interrupts_student1_student2_RR.cpp
- * @author Your Names Here
+ * @author Shael Kotecha and Matthe Bekkers
  * @brief Round Robin Scheduler (100ms quantum, with preemption)
  */
 

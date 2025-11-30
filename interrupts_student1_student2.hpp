@@ -1,6 +1,6 @@
 /**
  * @file interrupts.hpp
- * @author Sasisekhar Govind
+ * @author Sasisekhar Govind and Shael Kotecha 
  * @brief template main.cpp file for Assignment 3 Part 1 of SYSC4001
  * 
  */

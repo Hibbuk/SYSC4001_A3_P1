@@ -1,6 +1,6 @@
 /**
  * @file interrupts_student1_student2_EP.cpp
- * @author Your Names Here
+ * @author Shael Kotecha and Matthe Bekkers
  * @brief External Priorities Scheduler (No Preemption)
  */
 
