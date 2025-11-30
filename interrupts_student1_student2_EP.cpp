@@ -221,11 +221,17 @@ int main(int argc, char** argv) {
     std::vector<PCB> list_process;
 
     while(std::getline(input_file, line)) {
-        if(line.empty() || line[0] == '#') continue;
-        
-        auto input_tokens = split_delim(line, ", ");
-        auto new_process = add_process(input_tokens);
-        list_process.push_back(new_process);
+    if(line.empty() || line[0] == '#') continue;
+    
+    auto input_tokens = split_delim(line, ", ");
+    auto new_process = add_process(input_tokens);
+    
+    // Initialize fields not set by add_process()
+    new_process.wait_time = 0;
+    new_process.completion_time = -1;
+    new_process.io_remaining = 0;
+    
+    list_process.push_back(new_process);
     }
     input_file.close();
 

@@ -53,7 +53,7 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
     //This is the main reason I have job_list, you don't have to use it.
     while(job_list.empty() || !all_process_terminated(job_list)){
 
-        //Inside this loop, there are three things you must do:
+        
         // 1) Populate the ready queue with processes as they arrive
         // 2) Manage the wait queue
         // 3) Schedule processes from the ready queue
@@ -241,6 +241,12 @@ int main(int argc, char** argv) {
         
         auto input_tokens = split_delim(line, ", ");
         auto new_process = add_process(input_tokens);
+        
+        // Initialize fields not set by add_process()
+        new_process.wait_time = 0;
+        new_process.completion_time = -1;
+        new_process.io_remaining = 0;
+        
         list_process.push_back(new_process);
     }
     input_file.close();

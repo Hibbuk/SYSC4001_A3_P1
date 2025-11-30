@@ -1,0 +1,49 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                10 | 10 |   RUNNING |   WAITING |
+|                15 |  7 |       NEW |     READY |
+|                15 | 10 |   WAITING |     READY |
+|                15 | 10 |     READY |   RUNNING |
+|                25 | 10 |   RUNNING |   WAITING |
+|                25 |  7 |     READY |   RUNNING |
+|                30 |  4 |       NEW |     READY |
+|                30 | 10 |   WAITING |     READY |
+|                45 |  1 |       NEW |     READY |
+|                85 |  7 |   RUNNING |TERMINATED |
+|                85 |  1 |     READY |   RUNNING |
+|               105 |  1 |   RUNNING |   WAITING |
+|               105 | 10 |     READY |   RUNNING |
+|               115 |  1 |   WAITING |     READY |
+|               115 | 10 |   RUNNING |   WAITING |
+|               115 |  1 |     READY |   RUNNING |
+|               120 | 10 |   WAITING |     READY |
+|               135 |  1 |   RUNNING |   WAITING |
+|               135 | 10 |     READY |   RUNNING |
+|               145 |  1 |   WAITING |     READY |
+|               145 | 10 |   RUNNING |   WAITING |
+|               145 |  1 |     READY |   RUNNING |
+|               150 | 10 |   WAITING |     READY |
+|               165 |  1 |   RUNNING |   WAITING |
+|               165 | 10 |     READY |   RUNNING |
+|               175 |  1 |   WAITING |     READY |
+|               175 | 10 |   RUNNING |TERMINATED |
+|               175 |  1 |     READY |   RUNNING |
+|               195 |  1 |   RUNNING |TERMINATED |
+|               195 |  4 |     READY |   RUNNING |
+|               210 |  4 |   RUNNING |   WAITING |
+|               218 |  4 |   WAITING |     READY |
+|               218 |  4 |     READY |   RUNNING |
+|               233 |  4 |   RUNNING |   WAITING |
+|               241 |  4 |   WAITING |     READY |
+|               241 |  4 |     READY |   RUNNING |
+|               256 |  4 |   RUNNING |   WAITING |
+|               264 |  4 |   WAITING |     READY |
+|               264 |  4 |     READY |   RUNNING |
+|               279 |  4 |   RUNNING |   WAITING |
+|               287 |  4 |   WAITING |     READY |
+|               287 |  4 |     READY |   RUNNING |
+|               297 |  4 |   RUNNING |TERMINATED |
++------------------------------------------------+
