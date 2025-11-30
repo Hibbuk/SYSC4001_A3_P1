@@ -1,0 +1,19 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                20 | 10 |   RUNNING |   WAITING |
+|                30 |  5 |       NEW |     READY |
+|                30 | 10 |   WAITING |     READY |
+|                30 |  5 |     READY |   RUNNING |
+|               130 |  5 |   RUNNING |TERMINATED |
+|               130 | 10 |     READY |   RUNNING |
+|               150 | 10 |   RUNNING |   WAITING |
+|               160 | 10 |   WAITING |     READY |
+|               160 | 10 |     READY |   RUNNING |
+|               180 | 10 |   RUNNING |   WAITING |
+|               190 | 10 |   WAITING |     READY |
+|               190 | 10 |     READY |   RUNNING |
+|               210 | 10 |   RUNNING |TERMINATED |
++------------------------------------------------+

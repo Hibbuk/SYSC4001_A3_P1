@@ -1,0 +1,34 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                10 | 10 |   RUNNING |   WAITING |
+|                15 |  5 |       NEW |     READY |
+|                15 | 10 |   WAITING |     READY |
+|                15 |  5 |     READY |   RUNNING |
+|                27 |  5 |   RUNNING |   WAITING |
+|                27 | 10 |     READY |   RUNNING |
+|                33 |  5 |   WAITING |     READY |
+|                37 | 10 |   RUNNING |   WAITING |
+|                37 |  5 |     READY |   RUNNING |
+|                42 | 10 |   WAITING |     READY |
+|                49 |  5 |   RUNNING |   WAITING |
+|                49 | 10 |     READY |   RUNNING |
+|                55 |  5 |   WAITING |     READY |
+|                59 | 10 |   RUNNING |   WAITING |
+|                59 |  5 |     READY |   RUNNING |
+|                64 | 10 |   WAITING |     READY |
+|                71 |  5 |   RUNNING |   WAITING |
+|                71 | 10 |     READY |   RUNNING |
+|                77 |  5 |   WAITING |     READY |
+|                81 | 10 |   RUNNING |   WAITING |
+|                81 |  5 |     READY |   RUNNING |
+|                86 | 10 |   WAITING |     READY |
+|                93 |  5 |   RUNNING |   WAITING |
+|                93 | 10 |     READY |   RUNNING |
+|                99 |  5 |   WAITING |     READY |
+|               103 | 10 |   RUNNING |TERMINATED |
+|               103 |  5 |     READY |   RUNNING |
+|               115 |  5 |   RUNNING |TERMINATED |
++------------------------------------------------+
