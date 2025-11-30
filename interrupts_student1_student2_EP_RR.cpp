@@ -50,7 +50,6 @@ std::tuple<std::string /* add std::string for bonus mark */ > run_simulation(std
     execution_status = print_exec_header();
 
     //Loop while till there are no ready or waiting processes.
-    //This is the main reason I have job_list, you don't have to use it.
     while(job_list.empty() || !all_process_terminated(job_list)){
 
         
