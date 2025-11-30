@@ -65,6 +65,13 @@ struct PCB{
     enum states     state;
     unsigned int    io_freq;
     unsigned int    io_duration;
+    
+    // Added fields for Assignment 3
+    unsigned int    priority;           // For External Priorities scheduling
+    unsigned int    time_until_io;      // Countdown to next I/O operation
+    unsigned int    io_remaining;       // Remaining I/O time
+    int             completion_time;    // Time when process completes
+    int             wait_time;          // Total wait time for metrics
 };
 
 //------------------------------------HELPER FUNCTIONS FOR THE SIMULATOR------------------------------
